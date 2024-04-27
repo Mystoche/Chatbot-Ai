@@ -52,13 +52,6 @@ pipeline {
             }
         }
 
-        // Optional stage for Grafana monitoring (requires additional configuration)
-        /*
-        stage('Monitor with Grafana') {
-            steps {
-                // Use tools or scripts to send metrics to Grafana
-            }
-        }
-        */
+        
     }
 }
